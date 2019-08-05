@@ -1,105 +1,85 @@
- <!DOCTYPE html>
- <html>
-     <head>
-         <title>fighting animation</title>
-         <style>
-            
-            body{
-              background-size: cover;   
-              background-image: url("./image/battleield 5.gif");
-              background-position: 50% 50%;
-                  }
-            
-            
-             div.container{
-                 width:100%;
-                 height:990px;
-                position: relative;
-                 
-                 
-             }
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>fighting animation</title>
+    <style>
+      body {
+        background-size: cover;
+        background-image: url("./image/battleield 5.gif");
+        background-position: 50% 50%;
+      }
 
-          
-            
+      div.container {
+        width: 100%;
+        height: 990px;
+        position: relative;
+      }
 
-                 div.goku{
-                  width: 150px;
-                  height:158px;
-                  background-image: url("./image/goku/gokuuu 1.png");
-                  animation: goku 4s steps(8) 0s infinite;
-                  position: absolute;
-                  top: 53%;
-                  right:0%;
+      div.goku {
+        width: 150px;
+        height: 158px;
+        background-image: url("./image/goku/gokuuu 1.png");
+        animation: goku 4s steps(8) 0s infinite;
+        position: absolute;
+        top: 53%;
+        right: 0%;
+      }
+      @keyframes goku {
+        0% {
+          background-position: 0px;
+        }
+        100% {
+          margin-right: 700px;
+          background-position: 1184px;
+        }
+      }
 
-                  
-                   }
-                 @keyframes goku{
-                   0%{background-position: 0px;}
-                   100%{margin-right:700px; background-position:1184px ;}
-                 }
+      div.rediz {
+        width: 185px;
+        height: 153px;
+        background-image: url("./image/goku/rediz.png");
 
+        animation: rediz 4s steps(7) 0s infinite;
+        position: absolute;
+        top: 50%;
+        left: 0%;
+      }
+      @keyframes rediz {
+        0% {
+          background-position: 0px;
+        }
+        100% {
+          margin-left: 700px;
+          background-position: 1295px;
+        }
+      }
 
+      div.gohan {
+        width: 185px;
+        height: 131px;
+        background-image: url("./image/tintin copy.png");
+        animation: gohan 4s steps(11) 0s infinite;
+        position: absolute;
+        top: 60%;
+        right: 0%;
+      }
+      @keyframes gohan {
+        0% {
+          background-position: -1000px;
+        }
+        100% {
+          margin-right: 700px;
+          background-position: 0px;
+        }
+      }
+    </style>
+  </head>
 
-
-
-                 div.rediz{
-                  width: 185px;
-                  height:153px;
-                  background-image: url("./image/goku/rediz.png");
-                  
-                  animation: rediz 4s steps(7) 0s infinite;
-                  position: absolute;
-                  top: 50%;
-                  left:0%;
-                  
-                  
-
-              }
-                 @keyframes rediz{
-                   0%{background-position: 0px;}
-                   100%{margin-left:700px; background-position: 1295px;}
-                 }
-
-                 div.gohan{
-                  width: 185px;
-                  height:131px;
-                  background-image: url("./image/tintin copy.png");
-                  animation: gohan 4s steps(11) 0s infinite;
-                  position: absolute;
-                  top: 60%;
-                  right:0%;
-
-                  
-                   }
-                 @keyframes gohan{
-                   0%{background-position: -1000px;}
-                   100%{margin-right:700px; background-position: 0px;}
-                 }
-
-
-                
-                 
-
-
-
-
-
-
-         </style>
-         
-     </head>
-
-     <body>
-         <div class="container">
-             
-             
-             <div class="goku"></div>
-             <div class="rediz"></div>
-             <div class="gohan"></div>
-         
-            </div>
-         
-        
-
-     </body>
- </html>
+  <body>
+    <div class="container">
+      <div class="goku"></div>
+      <div class="rediz"></div>
+      <div class="gohan"></div>
+    </div>
+  </body>
+</html>
