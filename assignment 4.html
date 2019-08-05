@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>assignmnet 4</title>
+        <style>
+           
+           *{
+               margin:0px;
+               padding:0px;
+           }
+           
+           
+            div.container {
+                width: 100%;
+                height:900px;
+                background-image: url("./image/univ04.jpg");            
+                background-size: cover;
+                position: relative;
+                background-attachment: fixed;
+            
+            }
+
+            
+            div.boxE {
+                width:150px;
+                height:150px;
+                border-width :5px;
+                border-style:solid;
+                border-color: white;
+                margin-left: 200px;
+                position: absolute;
+                top:25%;
+                left:26%;
+                animation-name: boxE;
+                animation-duration: 4s;
+                animation-timing-function: ease-in-out;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+                animation-play-state: running;
+                animation-delay: 0s;
+                position: absolute;
+                
+            }
+            
+            @keyframes boxE {
+                0% {top: 25%;left: 29%;border-color: yellow}
+                100% {top: 15%; left:29%;border-color: orange}
+            } 
+                
+            
+
+
+
+            div.boxT {
+                width:150px;
+                height:150px;
+                border-width :5px;
+                border-style:solid;
+                border-color: white;
+                position:absolute;
+                top:25%;
+                left:25%;
+                animation-name: boxT;
+                animation-duration: 7s;
+                animation-timing-function: ease-in-out;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+                animation-play-state: running;
+                animation-delay: 0s;
+                
+                    
+            }
+            
+              @keyframes boxT {
+                0% {top: 25%;left: 25%;border-color: yellow}
+                25% {top: 15%; left:25%;border-color:yellowgreen}
+                50% {top: 15%; left: 20%;border-color: orange}
+                75% {top: 25%; left: 20%; border-color: red}
+                100% {top: 25%;left: 25%;border-color: blue}
+
+                
+            } 
+
+            div.boxS {
+                width:150px;
+                height:150px;
+                border-width :5px;
+                border-style:solid;
+                border-color: white;
+                position:absolute;
+                top:69%;
+                left:43%;
+                animation-name: boxS;
+                animation-duration: 10s;
+                animation-timing-function: ease-in-out;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+                animation-play-state: running;
+                animation-delay: 0;
+                
+            }
+            
+            @keyframes boxS {
+                0% {top: 69%;left: 43%;border-color: yellow}
+                50% {top: 69%; left: 60%;border-color:yellowgreen}
+                100% {top: 69%; left: 25%; border-color: orange}
+                
+            } 
+            
+
+            div.boxJ {
+                width:150px;
+                height:150px;
+                border-width :5px;
+                border-style:solid;
+                border-color: white;
+                position: absolute;
+                top:25%;
+                left:60%;
+                animation-name: boxJ;
+                animation-duration: 7s;
+                animation-timing-function: ease-in-out;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+                animation-play-state: running;
+                animation-delay: 0;
+                
+
+            }
+
+            @keyframes boxJ {
+                0% {top: 25%;left: 60%;border-color: yellow}
+                25% {top: 15%; left:60%;border-color:yellowgreen}
+                50% {top: 15%; left: 65%;border-color: orange}
+                75% {top: 25%; left:65%; border-color:red}
+                100% {top: 25%;left: 60%;border-color: blue}
+                
+                  
+            } 
+
+
+
+            div.boxA {
+                width:150px;
+                height:150px;
+                border-width :5px;
+                border-style:solid;
+                border-color:white;
+                position:absolute;
+                bottom: 35%;
+                left: 43%;
+                animation-name: boxA;
+                animation-duration: 10s;
+                animation-timing-function: ease-in-out;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+                animation-play-state: running;
+                animation-delay: 0;
+                
+            }
+           
+            @keyframes boxA {
+                0%   {top:45%; left:43%;border-color: yellow}
+                50% {top:45%; left:25%;border-color: yellowgreen }
+                100% {top:45%; left:60%;border-color: orange}
+            } 
+
+
+            div.circleE1 {
+                width: 15px;
+                height:15px;
+                background-color:white;
+                border-radius:15px;
+                animation-name: circleE1;
+                animation-duration: 2s;
+                animation-timing-function: ease-in-out;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+                animation-play-state: running;
+                animation-delay: 0;
+                position: absolute;
+            }
+                
+             
+            @keyframes circleE1 {
+                0% {top: 20px;left: 115px;background-color: yellow}
+                50% {top: 20px;left: 20px;background-color:yellowgreen}
+                75%    {top:70px; left:20px;background-color: orange}
+                100% {top:70px; left:115px;background-color: red}
+                
+            }
+
+            div.circleE2 {
+                width: 15px;
+                height:15px;
+                background-color:white;
+                border-radius:15px;
+                animation-name: circleE2;
+                animation-duration: 2s;
+                animation-timing-function: ease-in-out;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+                animation-play-state: running;
+                animation-delay: 0s;
+                position: absolute;
+            }
+                
+             
+            @keyframes circleE2 {
+                0% {top: 115px;left: 115px;background-color: yellow}
+                50% {top: 115px;left: 20px;background-color: yellowgreen}
+                75%    {top:70px; left:20px;background-color: orange}
+                100% {top:70px; left:115px;background-color: red}
+            }
+            
+
+    
+    
+            div.circleT1{
+                width: 15px;
+                height:15px;
+                background-color:white;
+                border-radius:15px;
+                animation-name: circleT1;
+                animation-duration: 2s;
+                animation-timing-function: ease-in-out;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+                animation-play-state: running;
+                animation-delay: 0s;
+                position: absolute;
+            }
+                
+             
+            @keyframes circleT1 {
+                0% {top: 20px;left: 20px;background-color: yellow}
+                50% {top: 20px;left: 70px;background-color: yellowgreen}
+                100%{top:115px; left:70px;background-color: red}
+
+                
+            }
+    
+
+    
+            div.circleT2{
+                width: 15px;
+                height:15px;
+                background-color:white;
+                border-radius:15px;
+                animation-name: circleT2;
+                animation-duration: 2s;
+                animation-timing-function: ease-in-out;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+                animation-play-state: running;
+                animation-delay: 0s;
+                position: absolute;
+            }
+                
+             
+            @keyframes circleT2 {
+                0% {top: 20px;left: 115px;background-color: yellow}
+                50% {top: 20px;left: 70px;background-color: yellowgreen}
+                100%{top:115px; left:70px;background-color: red}
+
+            }
+    
+           
+            
+
+            div.circleJ1 {
+                width: 15px;
+                height:15px;
+                background-color:white;
+                border-radius:15px;
+                animation-name: circleJ1;
+                animation-duration: 2s;
+                animation-timing-function: ease-in-out;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+                animation-play-state: running;
+                animation-delay: 0s;
+                position: absolute;
+            }
+                
+             
+            @keyframes circleJ1 {
+                0% {top: 20px;left: 20px;background-color: yellow}
+                25% {top: 20px;left: 70px; background-color: yellowgreen}
+                50% {top: 115px; left: 70px;background-color: orange}
+                75% {top:115px; left:35px;background-color: red}
+                100%{top:88px; left:35px;background-color: blue}
+
+                
+            }
+    
+            div.circleJ2 {
+                width: 15px;
+                height:15px;
+                background-color:white;
+                border-radius:15px;
+                animation-name: circleJ2;
+                animation-duration: 2s;
+                animation-timing-function: ease-in-out;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+                animation-play-state: running;
+                animation-delay: 0s;
+                position: absolute;
+            }
+                
+             
+            @keyframes circleJ2 {
+                0% {top: 20px;left: 115px;background-color: yellow}
+                25% {top: 20px;left: 70px;background-color: yellowgreen}
+                50% {top: 115px; left: 70px;background-color: orange}
+                75% {top:115px; left:35px;background-color: red}
+                100%{top:88px; left:35px;background-color: blue}
+            }
+                
+
+            
+            div.circleS {
+                width: 15px;
+                height:15px;
+                background-color:white;
+                border-radius:15px;
+                animation-name: circleS;
+                animation-duration: 2s;
+                animation-timing-function: ease-in-out;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+                animation-play-state: running;
+                animation-delay: 0s;
+                position: absolute;
+            }
+                
+            @keyframes circleS {
+                0% {top: 20px;left: 115px; background-color: yellow}
+                15% {top: 20px;left: 20px;background-color: yellowgreen}
+                30% {top: 70px; left: 20px;background-color: orange}
+                50% {top:70px; left:115px;background-color:red}
+                75% {top: 115px; left: 115px;background-color: blue}
+                100%{top: 115px; left: 20px;background-color: blueviolet} 
+            }
+
+             
+           
+            div.circleA1 {
+                width: 15px;
+                height:15px;
+                background-color:white;
+                border-radius:15px;
+                animation-name: circleA1;
+                animation-duration: 2s;
+                animation-timing-function: ease-in-out;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+                animation-play-state: running;
+                animation-delay: 0s;
+                position: absolute;
+            }
+
+             
+            @keyframes circleA1 {
+                0% {top: 115px;left: 20px;background-color: yellow}
+                50% {top: 20px;left: 70px;background-color: yellowgreen}
+                100% {top: 115px; left: 115px;background-color: red}
+                
+                
+            }
+
+             
+            div.circleA2 {
+                width:15px;
+                height:15px;
+                background-color:whitesmoke;
+                border-radius:15px;
+                animation-name: circleA2;
+                animation-duration: 4s;
+                animation-timing-function: ease-in-out;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+                animation-play-state: running;
+                animation-delay: 0s;
+                position: absolute;
+            }
+           
+            @keyframes circleA2 {
+                0% {top: 73px;left: 35px;background-color: yellow}
+                50% {top: 73px; left: 100px;background-color: yellowgreen}
+                100%{top: 73px;left: 35px;background-color: red}
+                
+            }
+
+            
+
+        
+        </style>
+
+    </head>
+
+    <body>
+        <div class="container">
+                <div class="boxE">
+                   <div class="circleE1"></div> 
+                   <div class="circleE2"></div> 
+                </div>
+                
+                <div class="boxT">
+                    <div class="circleT1"></div>
+                    <div class="circleT2"></div>
+                </div>
+
+                <div class="boxJ">
+                     <div class="circleJ1"></div>
+                     <div class="circleJ2"></div>
+                     
+                </div>
+
+                <div class="boxS">
+                    <div class="circleS"></div>
+                </div>
+
+                <div class="boxA">
+                    <div class="circleA1"></div>
+                    <div class="circleA2"></div>
+                </div>
+                
+                
+        </div>
+       
+      
+    </body>
+</html>
